@@ -1,0 +1,21 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+@url = https://localhost:5001
+
+
+###
+
+GET {{url}}/weatherforecast
+
+
+
+###
+
+
+GET {{url}}/weatherforecast/configs
+
+
+
+
+###
+
+POST {{url}}/weatherforecast
